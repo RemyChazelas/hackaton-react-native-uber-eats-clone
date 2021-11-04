@@ -7,11 +7,11 @@ export default function ViewCart() {
             style={{
                 flex: 1,
                 alignItems: "center",
-                flexDirection: "row",
                 justifyContent: "center",
+                flexDirection: "row",
                 position: "absolute",
-                bottom: 130,
-                zIndex: 9999,
+                bottom: 100,
+                zIndex: 999,
             }}
         >
             <View
@@ -33,7 +33,7 @@ export default function ViewCart() {
                     }}
 
                 >
-                    <Text style={{ color: "white", fontSize: 20 }}>Checkout</Text>
+                    <Text style={{ color: "white", fontSize: 20 }}>view cart</Text>
                 </TouchableOpacity>
             </View>
         </View>
