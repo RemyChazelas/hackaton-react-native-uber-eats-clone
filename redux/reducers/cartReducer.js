@@ -29,7 +29,6 @@ let cartReducer = (state = defaultState, action) => {
             return newState;
         };
 
-
         default:
             return state;
     }
