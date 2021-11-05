@@ -5,13 +5,15 @@
     "expo": "^43.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-native": "^0.64.2",
+    "react-native": "0.64.2",
     "react-native-bouncy-checkbox": "^2.1.7",
     "react-native-elements": "^3.4.2",
     "react-native-google-places-autocomplete": "^2.4.1",
+    "react-native-reanimated": "^2.2.3",
     "react-native-vector-icons": "^9.0.0",
     "react-native-web": "0.17.1",
     "react-redux": "^7.2.6",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
