@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Modal, StyleSheet } from "react-native";
 import { useSelector } from "react-redux";
 import OrderItem from "./OrderItem";
 import firebase from "../../firebase";
-// import LottieView from "lottie-react-native";
+import LottieView from "lottie-react-native";
 
 export default function ViewCart({ navigation }) {
     const [modalVisible, setModalVisible] = useState(false);
@@ -35,7 +35,7 @@ export default function ViewCart({ navigation }) {
                 setTimeout(() => {
                     setLoading(false);
                     navigation.navigate("OrderCompleted");
-                }, 2500);
+                }, 3000);
             });
 
     };
@@ -188,13 +188,12 @@ export default function ViewCart({ navigation }) {
                         width: "100%",
                     }}
                 >
-                    <Text>loading...</Text>
-                    {/* <LottieView
+                    <LottieView
                         style={{ height: 200 }}
                         source={require("../../assets/animations/scanner.json")}
                         autoPlay
                         speed={3}
-                    /> */}
+                    />
                 </View>
             ) : (
                 <></>
