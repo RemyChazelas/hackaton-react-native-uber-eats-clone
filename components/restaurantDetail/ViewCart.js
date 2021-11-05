@@ -37,6 +37,7 @@ export default function ViewCart({ navigation }) {
                     navigation.navigate("OrderCompleted");
                 }, 2500);
             });
+
     };
 
     const styles = StyleSheet.create({
